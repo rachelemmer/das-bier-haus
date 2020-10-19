@@ -6,6 +6,10 @@ export default function Navigation() {
         <nav className="nav-bar">
             <Link to="/">Home</Link>
             <br></br>
+            <Link to='Services'>Services</Link>
+            <br></br>
+            <Link to='Menu'>Menu</Link>
+            <br></br>
             <Link to='About'>About</Link>
             <br></br>
             <Link to='Contact'>Contact</Link>
