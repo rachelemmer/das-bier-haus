@@ -1,3 +1,5 @@
+/* navigation */
+
 .nav-bar {
   background-color: rgb(189, 195, 199);
   padding: 10px;
@@ -10,7 +12,7 @@
   text-decoration: none;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 30px;
   margin-top: 30px;
 }
@@ -21,5 +23,16 @@
 }
 
 .logo {
-  height: 100px;
+  height: 90px;
+  width: 80px;
+}
+
+/* home */
+
+.home-page-container {
+  background-image: url(https://images.unsplash.com/photo-1515952810476-0fd5b9884a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  display: flex;
 }
